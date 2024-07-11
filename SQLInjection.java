@@ -16,6 +16,7 @@ import java.sql.Statement;
 @RestController
 public class SqlInjectionLesson10 extends AssignmentEndpoint {
 
+    
     private final LessonDataSource dataSource;
 
     public SqlInjectionLesson10(LessonDataSource dataSource) {
