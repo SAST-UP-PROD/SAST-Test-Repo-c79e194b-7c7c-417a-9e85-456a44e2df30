@@ -17,6 +17,7 @@ public class SqlInjectionLesson6b extends AssignmentEndpoint {
     }
   }
 
+  
   protected String getPassword() {
     String password = "dave";
     try (Connection connection = dataSource.getConnection()) {
