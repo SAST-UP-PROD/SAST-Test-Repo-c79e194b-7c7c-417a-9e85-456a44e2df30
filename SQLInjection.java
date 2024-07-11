@@ -28,6 +28,7 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
     public AttackResult completed(@RequestParam String action_string) {
         return injectableQueryAvailability(action_string);
     }
+    
 
     protected AttackResult injectableQueryAvailability(String action) {
         StringBuilder output = new StringBuilder();
