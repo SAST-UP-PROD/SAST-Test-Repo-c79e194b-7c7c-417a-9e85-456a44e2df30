@@ -21,6 +21,7 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
     public SqlInjectionLesson10(LessonDataSource dataSource) {
         this.dataSource = dataSource;
     }
+    
 
     @PostMapping("/SqlInjection/attack10")
     @ResponseBody
